@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '14.0'
   
     s.dependency 'CropViewController', '~> 2.6.1'
-    s.dependency 'Kingfisher', '~> 2.6.1'
+    s.dependency 'Kingfisher', '7.9.1'
   
     s.vendored_frameworks = 'FizzerBuzzer.xcframework'
   end
